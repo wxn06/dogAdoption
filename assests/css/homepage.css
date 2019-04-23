@@ -1,95 +1,19 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
-}
-.container {
-    width: 80%
-    
-}
+    padding: 0;
+    font-family: Helvetica;
+    font-size: 200%
 
 
-.logo {
-    float: left;
-    padding: 10px 0;
-   
+
+
+.nav-item.active.custom-active-tab>a.nav-link{
+    color: lightblue;
+        
 }
 
-header{
-    background: white
-}
 
-.redText {
-    color: red;
-    font-weight: 200;
-    font-size: 50px;
-}
-
-nav {
-    float: right;
-}
-
-nav ul {
-margin: 0;
-padding: 0;
-list-style: none;
-}
-
-nav li {
-display: inline-block;
-text-align: center;
-margin-left: 50px;
-padding-top:  50px;
-
-position: relative;
-}
-
-nav a {
-    color: #768C39;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14 px; 
-}
-
-nav a:hover{
-color: black;
-
-}
-
-nav a::before{
-content: '';
-display: block;
-height:  5px;
-background-color: #768C39;
-
-position: absolute;
-top: 0;
-width: 0%;
-
-transition: all ease-in-out 200ms;
-}
-nav a:hover::before{
-    width: 100%;
-}
-
-.centered {
-    position: absolute;
-    top: 60%;
-    left: 40%;
-    bottom: 60%;
-    transform:  translate(-60%, -60%);
-    color: white;
-    font-size: 30px;
-}
-
-.img-container {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+img.img-fluid.nonprofit-logo {
+    max-width: 100%;
+    height: 50px;
 }
