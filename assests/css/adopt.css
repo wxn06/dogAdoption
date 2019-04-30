@@ -1,0 +1,30 @@
+.gallery-block{
+    padding-bottom: 60px;
+    padding-top: 60 px;
+}
+.gallery-block .heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 400px){
+    header div{
+        margin: 0;
+
+    }
+    header{
+        padding: 0%;
+    }
+}
+
+div .a{
+    text-align: center;
+}
+
+[code]
+.red {
+  font-size: 50px;
+  color: 	#8B0000;
+}
+[/code]
+

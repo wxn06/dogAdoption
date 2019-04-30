@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- MUY IMPORTANTE DOCUMENTATION -->
+  <!-- https://getbootstrap.com/docs/4.0/components/navbar/ -->
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+  <!-- Optional JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+  <title>Dogs 4 Rescue</title>
+  <!-- common local css stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/homepage.css">
+  <link rel="stylesheet" href="assets/css/donate.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+  
+</head>
+
+<body>
+  <div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html"><img src="assests/images/doglogo1.png"
+          class="img-fluid nonprofit-logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active custom-active-tab">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Dog Adoption
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="adopt.html">Adopt</a>
+              <a class="dropdown-item" href="">Dog Training</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href=""></a>
+            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="">Get Involved</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="donate.html">Donate</a>
+          </li>
+          <!-- Modal -->
+          <div class="modal fade" id="elegantModalForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <!--Content-->
+              <div class="modal-content form-elegant">
+                <!--Header-->
+                <div class="modal-header text-center">
+                  <h3 class="modal-title w-100 dark-grey-text font-weight-bold my-3" id="myModalLabel"><strong>Sign
+                      in</strong></h3>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <!--Body-->
+                <div class="modal-body mx-4">
+                  <!--Body-->
+                  <div class="md-form mb-5">
+                    <input type="email" id="Form-email1" class="form-control validate">
+                    <label data-error="wrong" data-success="right" for="Form-email1">Your email</label>
+                  </div>
+
+                  <div class="md-form pb-3">
+                    <input type="password" id="Form-pass1" class="form-control validate">
+                    <label data-error="wrong" data-success="right" for="Form-pass1">Your password</label>
+                    <p class="font-small blue-text d-flex justify-content-end">Forgot <a href="#"
+                        class="blue-text ml-1">
+                        Password?</a></p>
+                  </div>
+
+                  <!--Grid column-->
+                  <div class="text-center mb-3 col-md-12">
+                    <button type="button" class="btn btn-danger btn-block btn-rounded z-depth-1">Login</button>
+                    <p>or login</p>
+                  </div>
+                  <!--Grid column-->
+
+                  <div class="row my-3 d-flex justify-content-center">
+                    <!--Facebook-->
+                    <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i
+                        class="fab fa-facebook-f text-center"></i></button>
+
+                  </div>
+                </div>
+                <!--Footer-->
+                <div class="modal-footer mx-5 pt-3 mb-1">
+                  <p class="font-small grey-text d-flex justify-content-end">Not a member? <a href="#"
+                      class="blue-text ml-1">
+                      Sign Up</a></p>
+                </div>
+              </div>
+              <!--/.Content-->
+            </div>
+          </div>
+          <!-- Modal -->
+
+          <div class="row">
+            <div class="col-md-4 col-lg-2">
+              <a href="" class="btn btn-success btn-rounded" data-toggle="modal"
+                data-target="#elegantModalForm">Login</a>
+            </div>
+          </div>
+
+      </div>
+
+
+    </nav>
+      </div>
+      
+      <div class="btn-group-center">
+          <div class="row">
+              <div class="col-lg-3 col-md-4 col-xs-6 text-center">
+                  <div class="btn-group" role="group">
+                      <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <a class="dropdown-item" href="#">Dropdown link</a>
+                        <a class="dropdown-item" href="#">Dropdown link</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-4 col-xs-6 text-center">
+                      <div class="btn-group" role="group">
+                          <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <a class="dropdown-item" href="#">Dropdown link</a>
+                            <a class="dropdown-item" href="#">Dropdown link</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-4 col-xs-6 text-center">
+                          <div class="btn-group" role="group">
+                              <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                              </button>
+                              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <a class="dropdown-item" href="#">Dropdown link</a>
+                                <a class="dropdown-item" href="#">Dropdown link</a>
+                              </div>
+                            </div>
+                          </div>
+
+                           <div class="col-lg-3 col-md-4 col-xs-6 text-center">
+                  <div class="btn-group" role="group">
+                      <button id="btnGroupDrop1"  class="btn btn-search btn-success" type="button"><i class="fa fa-search fa-fw"></i> Search</button>
+                    </span> 
+                     
+                      
+                      </div>
+                    </div>
+                  </div>
+
+    </section>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <div class="container">
+      <div class="row">
+        <div class="row">
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                       data-image="assests/images/twinpuppies.png"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="assests/images/twinpuppies.png"
+                             alt="Another alt text">
+                            
+                            <a style="text-decoration: none;" rel="click">Juni & Binbin</a>
+                            <p>Border Collie
+                                Puppy, Pomona Ca</p>
+                                <i class="far fa-heart"></i>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                       data-image="assests/images/ajehfkajfd.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="assests/images/ajehfkajfd.jpg"
+                             alt="Another alt text">
+                             <a style="text-decoration: none;" rel="click">Minnie</a>
+                             <p>Chihuahua
+                                Adult, Pomona, Ca</p>
+                                <i class="fa fa-heart red"style="font-size:15px;color:red;"></i>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                       data-image="assests/images/euygyug.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="assests/images/euygyug.jpg"
+                             alt="Another alt text">
+                             <a style="text-decoration: none;" rel="click">Oreo</a>
+                             <p>Pug
+                                Young, Pomona, Ca</p>
+                                <i class="far fa-heart"></i>
+                           
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                       data-image="assests/images/IMG_9152.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="assests/images/IMG_9152.jpg"
+                             alt="Another alt text">
+                             <a style="text-decoration: none;" rel="click">Louie</a>
+                             <p>Wiener
+                                Adult, Pomona, Ca</p>
+                                <i class="fa fa-heart red"style="font-size:15px;color:red;"></i>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                       data-image="assests/images/roooooooo.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="assests/images/roooooooo.jpg"
+                             alt="Another alt text">
+                             <a style="text-decoration: none;" rel="click">Cotton</a>
+                             <p>Pomeranian, Young
+                                Pomona, Ca</p>
+                                <i class="far fa-heart"></i>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                       data-image="assests/images/IMG_9141.JPG"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="assests/images/IMG_9141.JPG"
+                             alt="Another alt text">
+                             <a style="text-decoration: none;" rel="click">Lily</a>
+                             <p>Belgian Malinois
+                                Adult, Pomona, Ca</p>
+                                <i class="far fa-heart"></i>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                       data-image="assests/images/IMG_9135.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="assests/images/IMG_9135.jpg"
+                             alt="Another alt text">
+                             <a style="text-decoration: none;" rel="click">Mocha</a>
+                             <p>Pom Mix
+                                Young, Pomona, Ca</p>
+                                <i class="far fa-heart"></i>
+                             
+                             
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                       data-image="assests/images/hellodog.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="assests/images/hellodog.jpg"
+                             alt="Another alt text">
+                             <a style="text-decoration: none;" rel="click">Rex</a>
+                             <p>Labrador, Adult, 
+                                Pomona, Ca</p>
+                                <i class="fa fa-heart red"style="font-size:15px;color:red;"></i>
+                                
+                            
+                </div>
+                <button type="button" class="btn btn-success"style="float:right">Next</button>
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+</body>
+
+</html>
