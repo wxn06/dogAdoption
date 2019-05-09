@@ -1,24 +1,17 @@
-.img-wrapper {
-    position: relative;
-   }
+footer{
+  width: 100%;
+  background-color:#768C39;
+  padding: 2%;
+  color: white; 
+}
+.fa{
+  padding:10px;
+  font-size: 10px;
+  color:black;
   
-  .img-responsive {
-    width: 100%;
-    height: auto;
-  }
-  
-  .img-overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-  }
-  
-  .img-overlay:before {
-    content: ' ';
-    display: block;
-    /* adjust 'height' to position overlay content vertically */
-    height: 50%;
-  }
+}
+.fa:hover{
+  color: white;
+  text-decoration: none;
+}
+
